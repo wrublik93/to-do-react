@@ -7,14 +7,17 @@ import TodoList from './components/TodoList';
 const App = () => {
     const todoData = [
         {
+            id: 1,
             label: 'Drink Coffee',
             important: false,
         },
         {
+            id: 2,
             label: 'Read documentation',
             important: true,
         },
         {
+            id: 3,
             label: 'Eat food',
             important: false,
         },
